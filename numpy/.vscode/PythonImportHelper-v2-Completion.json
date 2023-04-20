@@ -1,0 +1,398 @@
+[
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "2-ndarray.ndarray",
+        "description": "2-ndarray.ndarray",
+        "peekOfCode": "arr = np.array([[1, 2, 3, 4], [4, 5, 6, 7], [9, 10, 11, 23]])\nprint(\"arr.ndim:\",arr.ndim)\nprint(\"arr.itemsize:\",arr.itemsize)\nprint(\"arr.size: \",arr.size)\nprint(\"arr.shape\",arr.shape)\nprint(\"len(arr.shape)\",len(arr.shape))\narr=np.array([[1,2,3],[4,5,6]],dtype=float)\nprint(\"arr:\",arr,sep=\"\\n\")\nprint(\"type(arr)\",type(arr))\nprint(\"arr.ndim: \",arr.ndim)",
+        "detail": "2-ndarray.ndarray",
+        "documentation": {}
+    },
+    {
+        "label": "arr=arr.sum(axis",
+        "kind": 5,
+        "importPath": "2-ndarray.ndarray",
+        "description": "2-ndarray.ndarray",
+        "peekOfCode": "arr=arr.sum(axis = 1)\nprint(\"type(arr.sum(axis = 1))\",type(sum))\nprint(\"arr:\",arr,sep=\"\\n\")\nprint(\"type(arr)\",type(arr))\nprint(\"arr.ndim: \",arr.ndim)\nprint(\"elements type:\",arr.dtype)\nprint(\"arr.itemsize:\",arr.itemsize)\nprint(\"arr.size: \",arr.size)\nprint(\"arr.shape\",arr.shape)\nprint(\"len(arr.shape)\",len(arr.shape))",
+        "detail": "2-ndarray.ndarray",
+        "documentation": {}
+    },
+    {
+        "label": "print(\"type(arr.sum(axis",
+        "kind": 5,
+        "importPath": "2-ndarray.ndarray",
+        "description": "2-ndarray.ndarray",
+        "peekOfCode": "print(\"type(arr.sum(axis = 1))\",type(sum))\nprint(\"arr:\",arr,sep=\"\\n\")\nprint(\"type(arr)\",type(arr))\nprint(\"arr.ndim: \",arr.ndim)\nprint(\"elements type:\",arr.dtype)\nprint(\"arr.itemsize:\",arr.itemsize)\nprint(\"arr.size: \",arr.size)\nprint(\"arr.shape\",arr.shape)\nprint(\"len(arr.shape)\",len(arr.shape))\narr=np.array([[1,2,3],[4,5,6],[2,6,9]],dtype='int64')",
+        "detail": "2-ndarray.ndarray",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "2-ndarray.ndarray",
+        "description": "2-ndarray.ndarray",
+        "peekOfCode": "a = np.array([[1,2,30],[10,15,4]])\nb = np.array([[1,2,3],[12, 19, 29]])\nprint(\"Sum of array a and b\\n\",a+b)\nprint(\"Defference of array a and b\\n\",a-b)\nprint(\"Product of array a and b\\n\",a*b)\nprint(\"Division of array a and b\\n\",a/b)\nprint(\"modulo of a and b\\n\",a%b)\nprint(\"a**b\\n\",a**b)\na= np.array([[1,2,30],[10,15,4]])\nb = np.array([[1,2,3],[12, 19, 29]])",
+        "detail": "2-ndarray.ndarray",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "2-ndarray.ndarray",
+        "description": "2-ndarray.ndarray",
+        "peekOfCode": "b = np.array([[1,2,3],[12, 19, 29]])\nprint(\"Sum of array a and b\\n\",a+b)\nprint(\"Defference of array a and b\\n\",a-b)\nprint(\"Product of array a and b\\n\",a*b)\nprint(\"Division of array a and b\\n\",a/b)\nprint(\"modulo of a and b\\n\",a%b)\nprint(\"a**b\\n\",a**b)\na= np.array([[1,2,30],[10,15,4]])\nb = np.array([[1,2,3],[12, 19, 29]])\nprint(\"Arrays vertically concatenated\\n\",np.vstack((a,b)));",
+        "detail": "2-ndarray.ndarray",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "2-ndarray.ndarray",
+        "description": "2-ndarray.ndarray",
+        "peekOfCode": "b = np.array([[1,2,3],[12, 19, 29]])\nprint(\"Arrays vertically concatenated\\n\",np.vstack((a,b)));\nprint(\"Arrays horizontally concatenated\\n\",np.hstack((a,b)))\nprint(\"arr:\",arr)\nx=arr.ravel()\nprint(\"x:\",x)\nprint(\"type(x)\",type(x))\nprint(\"x.ndim\",x.ndim)\nlst=x.tolist()\nprint(\"lst\",lst)",
+        "detail": "2-ndarray.ndarray",
+        "documentation": {}
+    },
+    {
+        "label": "properties",
+        "kind": 2,
+        "importPath": "2-ndarray.properties",
+        "description": "2-ndarray.properties",
+        "peekOfCode": "def properties(arr):\n    print('array:',arr)\n    print('ndim:',arr.ndim)\n    print('shape:',arr.shape)\n    print('dtype:',arr.dtype)\n    print('itemsize:',arr.itemsize)\n    print('*****\\n\\n\\n\\n*****')\nproperties(a)\nproperties(b)\nproperties(c)",
+        "detail": "2-ndarray.properties",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "2-ndarray.properties",
+        "description": "2-ndarray.properties",
+        "peekOfCode": "b = np.array([[1, 2, 3, 4], [4, 5, 6, 7], [9, 10, 11, 23]])\nc= np.array([[1,2,30],[10,15,4]])\nd = np.array([[1,2,3],[12, 19, 29]])\nlx=np.array([1,2,5.8,7])\ne=np.array([True,False,False,True])\ndef properties(arr):\n    print('array:',arr)\n    print('ndim:',arr.ndim)\n    print('shape:',arr.shape)\n    print('dtype:',arr.dtype)",
+        "detail": "2-ndarray.properties",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "2-ndarray.properties",
+        "description": "2-ndarray.properties",
+        "peekOfCode": "d = np.array([[1,2,3],[12, 19, 29]])\nlx=np.array([1,2,5.8,7])\ne=np.array([True,False,False,True])\ndef properties(arr):\n    print('array:',arr)\n    print('ndim:',arr.ndim)\n    print('shape:',arr.shape)\n    print('dtype:',arr.dtype)\n    print('itemsize:',arr.itemsize)\n    print('*****\\n\\n\\n\\n*****')",
+        "detail": "2-ndarray.properties",
+        "documentation": {}
+    },
+    {
+        "label": "arr=arr.sum(axis",
+        "kind": 5,
+        "importPath": "2-ndarray.properties",
+        "description": "2-ndarray.properties",
+        "peekOfCode": "arr=arr.sum(axis = 1)\nprint(\"type(arr.sum(axis = 1))\",type(sum))\nprint(\"arr:\",arr,sep=\"\\n\")\nprint(\"type(arr)\",type(arr))\nprint(\"arr.ndim: \",arr.ndim)\nprint(\"elements type:\",arr.dtype)\nprint(\"arr.itemsize:\",arr.itemsize)\nprint(\"arr.size: \",arr.size)\nprint(\"arr.shape\",arr.shape)\nprint(\"len(arr.shape)\",len(arr.shape))",
+        "detail": "2-ndarray.properties",
+        "documentation": {}
+    },
+    {
+        "label": "print(\"type(arr.sum(axis",
+        "kind": 5,
+        "importPath": "2-ndarray.properties",
+        "description": "2-ndarray.properties",
+        "peekOfCode": "print(\"type(arr.sum(axis = 1))\",type(sum))\nprint(\"arr:\",arr,sep=\"\\n\")\nprint(\"type(arr)\",type(arr))\nprint(\"arr.ndim: \",arr.ndim)\nprint(\"elements type:\",arr.dtype)\nprint(\"arr.itemsize:\",arr.itemsize)\nprint(\"arr.size: \",arr.size)\nprint(\"arr.shape\",arr.shape)\nprint(\"len(arr.shape)\",len(arr.shape))\narr=np.array([[1,2,3],[4,5,6],[2,6,9]],dtype='int64')",
+        "detail": "2-ndarray.properties",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "2-ndarray.properties",
+        "description": "2-ndarray.properties",
+        "peekOfCode": "a = np.array([[1,2,30],[10,15,4]])\nb = np.array([[1,2,3],[12, 19, 29]])\nprint(\"Sum of array a and b\\n\",a+b)\nprint(\"Defference of array a and b\\n\",a-b)\nprint(\"Product of array a and b\\n\",a*b)\nprint(\"Division of array a and b\\n\",a/b)\nprint(\"modulo of a and b\\n\",a%b)\nprint(\"a**b\\n\",a**b)\na= np.array([[1,2,30],[10,15,4]])\nb = np.array([[1,2,3],[12, 19, 29]])",
+        "detail": "2-ndarray.properties",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "2-ndarray.properties",
+        "description": "2-ndarray.properties",
+        "peekOfCode": "b = np.array([[1,2,3],[12, 19, 29]])\nprint(\"Sum of array a and b\\n\",a+b)\nprint(\"Defference of array a and b\\n\",a-b)\nprint(\"Product of array a and b\\n\",a*b)\nprint(\"Division of array a and b\\n\",a/b)\nprint(\"modulo of a and b\\n\",a%b)\nprint(\"a**b\\n\",a**b)\na= np.array([[1,2,30],[10,15,4]])\nb = np.array([[1,2,3],[12, 19, 29]])\nprint(\"Arrays vertically concatenated\\n\",np.vstack((a,b)));",
+        "detail": "2-ndarray.properties",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "2-ndarray.properties",
+        "description": "2-ndarray.properties",
+        "peekOfCode": "b = np.array([[1,2,3],[12, 19, 29]])\nprint(\"Arrays vertically concatenated\\n\",np.vstack((a,b)));\nprint(\"Arrays horizontally concatenated\\n\",np.hstack((a,b)))\nprint(\"arr:\",arr)\nx=arr.ravel()\nprint(\"x:\",x)\nprint(\"type(x)\",type(x))\nprint(\"x.ndim\",x.ndim)\nlst=x.tolist()\nprint(\"lst\",lst)",
+        "detail": "2-ndarray.properties",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "3-create_array.arange",
+        "description": "3-create_array.arange",
+        "peekOfCode": "arr = np.arange(10,50,5,dtype=int)\nprint(\"The array over the given range is \",arr)",
+        "detail": "3-create_array.arange",
+        "documentation": {}
+    },
+    {
+        "label": "lst",
+        "kind": 5,
+        "importPath": "3-create_array.from_iterator",
+        "description": "3-create_array.from_iterator",
+        "peekOfCode": "lst = [0,2,4,6]\nit = iter(lst)\narr = np.fromiter(it, dtype = float)\nprint('arr:',arr)\nprint('type(arr):',type(arr))\nlst=range(10);\nit=iter(lst)\narr = np.fromiter(it, dtype = int,count=5)\nprint('arr:',arr)\nprint('type(arr):',type(arr))",
+        "detail": "3-create_array.from_iterator",
+        "documentation": {}
+    },
+    {
+        "label": "it",
+        "kind": 5,
+        "importPath": "3-create_array.from_iterator",
+        "description": "3-create_array.from_iterator",
+        "peekOfCode": "it = iter(lst)\narr = np.fromiter(it, dtype = float)\nprint('arr:',arr)\nprint('type(arr):',type(arr))\nlst=range(10);\nit=iter(lst)\narr = np.fromiter(it, dtype = int,count=5)\nprint('arr:',arr)\nprint('type(arr):',type(arr))",
+        "detail": "3-create_array.from_iterator",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "3-create_array.from_iterator",
+        "description": "3-create_array.from_iterator",
+        "peekOfCode": "arr = np.fromiter(it, dtype = float)\nprint('arr:',arr)\nprint('type(arr):',type(arr))\nlst=range(10);\nit=iter(lst)\narr = np.fromiter(it, dtype = int,count=5)\nprint('arr:',arr)\nprint('type(arr):',type(arr))",
+        "detail": "3-create_array.from_iterator",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "3-create_array.from_iterator",
+        "description": "3-create_array.from_iterator",
+        "peekOfCode": "arr = np.fromiter(it, dtype = int,count=5)\nprint('arr:',arr)\nprint('type(arr):',type(arr))",
+        "detail": "3-create_array.from_iterator",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "3-create_array.from_sequence",
+        "description": "3-create_array.from_sequence",
+        "peekOfCode": "a = np.asarray(l,dtype=object);\nprint(type(a))\nprint(a)",
+        "detail": "3-create_array.from_sequence",
+        "documentation": {}
+    },
+    {
+        "label": "getData",
+        "kind": 2,
+        "importPath": "5-indexing-slicing.2Darray",
+        "description": "5-indexing-slicing.2Darray",
+        "peekOfCode": "def getData(arr):\n    lst=list()\n    for i in range(arr.shape[0]):#browse the row\n        for j in range(arr.shape[1]):##browse the column\n            lst.append(array[i,j])#add data to the list\n    return lst\narray=np.array([ [1,5,6,8],[1,-5,6,9],[8,58,16,88]])\nlst=getData(array)\nprint(\"entries in array: \",lst)\nprint('array[1]',array[1])",
+        "detail": "5-indexing-slicing.2Darray",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "linear_algebra.algebra",
+        "description": "linear_algebra.algebra",
+        "peekOfCode": "a = np.array([[1,20],[3,-2]])\nb = np.array([[3,-8],[5,4]])\ndot = np.dot(a,b)\nprint(dot)\na = np.asarray([1,2,3,4,5,6])\nmata=a.reshape(2,3)\nb = np.array([7,8,9,10,11,12])\nmatb=b.reshape(3,2)\nprint(\"mata:\",mata)\nprint(\"matb:\",matb)",
+        "detail": "linear_algebra.algebra",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "linear_algebra.algebra",
+        "description": "linear_algebra.algebra",
+        "peekOfCode": "b = np.array([[3,-8],[5,4]])\ndot = np.dot(a,b)\nprint(dot)\na = np.asarray([1,2,3,4,5,6])\nmata=a.reshape(2,3)\nb = np.array([7,8,9,10,11,12])\nmatb=b.reshape(3,2)\nprint(\"mata:\",mata)\nprint(\"matb:\",matb)\ndot=np.dot(mata,matb)",
+        "detail": "linear_algebra.algebra",
+        "documentation": {}
+    },
+    {
+        "label": "dot",
+        "kind": 5,
+        "importPath": "linear_algebra.algebra",
+        "description": "linear_algebra.algebra",
+        "peekOfCode": "dot = np.dot(a,b)\nprint(dot)\na = np.asarray([1,2,3,4,5,6])\nmata=a.reshape(2,3)\nb = np.array([7,8,9,10,11,12])\nmatb=b.reshape(3,2)\nprint(\"mata:\",mata)\nprint(\"matb:\",matb)\ndot=np.dot(mata,matb)\nprint(\"mata*matb:\",dot,sep='\\n')",
+        "detail": "linear_algebra.algebra",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "linear_algebra.algebra",
+        "description": "linear_algebra.algebra",
+        "peekOfCode": "a = np.asarray([1,2,3,4,5,6])\nmata=a.reshape(2,3)\nb = np.array([7,8,9,10,11,12])\nmatb=b.reshape(3,2)\nprint(\"mata:\",mata)\nprint(\"matb:\",matb)\ndot=np.dot(mata,matb)\nprint(\"mata*matb:\",dot,sep='\\n')\nvecta = np.asarray([1,2,3,4,5,6])\nvectb = np.array([7,8,9,10,11,12])",
+        "detail": "linear_algebra.algebra",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "linear_algebra.algebra",
+        "description": "linear_algebra.algebra",
+        "peekOfCode": "b = np.array([7,8,9,10,11,12])\nmatb=b.reshape(3,2)\nprint(\"mata:\",mata)\nprint(\"matb:\",matb)\ndot=np.dot(mata,matb)\nprint(\"mata*matb:\",dot,sep='\\n')\nvecta = np.asarray([1,2,3,4,5,6])\nvectb = np.array([7,8,9,10,11,12])\nprint(\"vecta:\",a)\nprint(\"vectb:\",b)",
+        "detail": "linear_algebra.algebra",
+        "documentation": {}
+    },
+    {
+        "label": "vecta",
+        "kind": 5,
+        "importPath": "linear_algebra.algebra",
+        "description": "linear_algebra.algebra",
+        "peekOfCode": "vecta = np.asarray([1,2,3,4,5,6])\nvectb = np.array([7,8,9,10,11,12])\nprint(\"vecta:\",a)\nprint(\"vectb:\",b)\ndot=np.vdot(a,b)\nprint(\"vecta.vectb:\",dot)\na = np.array([1,2,3,4,5,6])\nb = np.array([23,23,12,2,1,2])\ninner = np.inner(a,b)\nvdot=np.vdot(a,b)",
+        "detail": "linear_algebra.algebra",
+        "documentation": {}
+    },
+    {
+        "label": "vectb",
+        "kind": 5,
+        "importPath": "linear_algebra.algebra",
+        "description": "linear_algebra.algebra",
+        "peekOfCode": "vectb = np.array([7,8,9,10,11,12])\nprint(\"vecta:\",a)\nprint(\"vectb:\",b)\ndot=np.vdot(a,b)\nprint(\"vecta.vectb:\",dot)\na = np.array([1,2,3,4,5,6])\nb = np.array([23,23,12,2,1,2])\ninner = np.inner(a,b)\nvdot=np.vdot(a,b)\nprint(\"iner(a,b): \",inner)",
+        "detail": "linear_algebra.algebra",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "linear_algebra.algebra",
+        "description": "linear_algebra.algebra",
+        "peekOfCode": "a = np.array([1,2,3,4,5,6])\nb = np.array([23,23,12,2,1,2])\ninner = np.inner(a,b)\nvdot=np.vdot(a,b)\nprint(\"iner(a,b): \",inner)\nprint(\"vdot(a,b): \",vdot)\na = np.asarray([1,2,3,4,5,6])\nmata=a.reshape(2,3)\nb = np.array([7,8,9,10,11,12])\nmatb=b.reshape(3,2)",
+        "detail": "linear_algebra.algebra",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "linear_algebra.algebra",
+        "description": "linear_algebra.algebra",
+        "peekOfCode": "b = np.array([23,23,12,2,1,2])\ninner = np.inner(a,b)\nvdot=np.vdot(a,b)\nprint(\"iner(a,b): \",inner)\nprint(\"vdot(a,b): \",vdot)\na = np.asarray([1,2,3,4,5,6])\nmata=a.reshape(2,3)\nb = np.array([7,8,9,10,11,12])\nmatb=b.reshape(3,2)\nprint(\"mata:\",mata)",
+        "detail": "linear_algebra.algebra",
+        "documentation": {}
+    },
+    {
+        "label": "inner",
+        "kind": 5,
+        "importPath": "linear_algebra.algebra",
+        "description": "linear_algebra.algebra",
+        "peekOfCode": "inner = np.inner(a,b)\nvdot=np.vdot(a,b)\nprint(\"iner(a,b): \",inner)\nprint(\"vdot(a,b): \",vdot)\na = np.asarray([1,2,3,4,5,6])\nmata=a.reshape(2,3)\nb = np.array([7,8,9,10,11,12])\nmatb=b.reshape(3,2)\nprint(\"mata:\",mata)\nprint(\"matb:\",matb)",
+        "detail": "linear_algebra.algebra",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "linear_algebra.algebra",
+        "description": "linear_algebra.algebra",
+        "peekOfCode": "a = np.asarray([1,2,3,4,5,6])\nmata=a.reshape(2,3)\nb = np.array([7,8,9,10,11,12])\nmatb=b.reshape(3,2)\nprint(\"mata:\",mata)\nprint(\"matb:\",matb)\n#inner=np.inner(mata,matb) errorsame shape are required\nvdot=np.vdot(mata,matb)\na = np.array([[1,2,3],[4,5,6],[7,8,9]])\nb = np.array([[23,23,12],[2,1,2],[7,8,9]])",
+        "detail": "linear_algebra.algebra",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "linear_algebra.algebra",
+        "description": "linear_algebra.algebra",
+        "peekOfCode": "b = np.array([7,8,9,10,11,12])\nmatb=b.reshape(3,2)\nprint(\"mata:\",mata)\nprint(\"matb:\",matb)\n#inner=np.inner(mata,matb) errorsame shape are required\nvdot=np.vdot(mata,matb)\na = np.array([[1,2,3],[4,5,6],[7,8,9]])\nb = np.array([[23,23,12],[2,1,2],[7,8,9]])\nmul = np.matmul(a,b)\nprint(mul)",
+        "detail": "linear_algebra.algebra",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "linear_algebra.algebra",
+        "description": "linear_algebra.algebra",
+        "peekOfCode": "a = np.array([[1,2,3],[4,5,6],[7,8,9]])\nb = np.array([[23,23,12],[2,1,2],[7,8,9]])\nmul = np.matmul(a,b)\nprint(mul)\na = np.array([[1,2],[3,4]])\nprint(np.linalg.det(a))\na = np.array([[1,2],[3,4]])\nb = np.array([[1,2],[3,4]])\nprint(np.linalg.solve(a, b))\na = np.array([[1,2],[3,4]])",
+        "detail": "linear_algebra.algebra",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "linear_algebra.algebra",
+        "description": "linear_algebra.algebra",
+        "peekOfCode": "b = np.array([[23,23,12],[2,1,2],[7,8,9]])\nmul = np.matmul(a,b)\nprint(mul)\na = np.array([[1,2],[3,4]])\nprint(np.linalg.det(a))\na = np.array([[1,2],[3,4]])\nb = np.array([[1,2],[3,4]])\nprint(np.linalg.solve(a, b))\na = np.array([[1,2],[3,4]])\nprint(\"Original array:\\n\",a)",
+        "detail": "linear_algebra.algebra",
+        "documentation": {}
+    },
+    {
+        "label": "mul",
+        "kind": 5,
+        "importPath": "linear_algebra.algebra",
+        "description": "linear_algebra.algebra",
+        "peekOfCode": "mul = np.matmul(a,b)\nprint(mul)\na = np.array([[1,2],[3,4]])\nprint(np.linalg.det(a))\na = np.array([[1,2],[3,4]])\nb = np.array([[1,2],[3,4]])\nprint(np.linalg.solve(a, b))\na = np.array([[1,2],[3,4]])\nprint(\"Original array:\\n\",a)\nb = np.linalg.inv(a)",
+        "detail": "linear_algebra.algebra",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "linear_algebra.algebra",
+        "description": "linear_algebra.algebra",
+        "peekOfCode": "a = np.array([[1,2],[3,4]])\nprint(np.linalg.det(a))\na = np.array([[1,2],[3,4]])\nb = np.array([[1,2],[3,4]])\nprint(np.linalg.solve(a, b))\na = np.array([[1,2],[3,4]])\nprint(\"Original array:\\n\",a)\nb = np.linalg.inv(a)\nprint(\"Inverse:\\n\",b)",
+        "detail": "linear_algebra.algebra",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "linear_algebra.algebra",
+        "description": "linear_algebra.algebra",
+        "peekOfCode": "a = np.array([[1,2],[3,4]])\nb = np.array([[1,2],[3,4]])\nprint(np.linalg.solve(a, b))\na = np.array([[1,2],[3,4]])\nprint(\"Original array:\\n\",a)\nb = np.linalg.inv(a)\nprint(\"Inverse:\\n\",b)",
+        "detail": "linear_algebra.algebra",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "linear_algebra.algebra",
+        "description": "linear_algebra.algebra",
+        "peekOfCode": "b = np.array([[1,2],[3,4]])\nprint(np.linalg.solve(a, b))\na = np.array([[1,2],[3,4]])\nprint(\"Original array:\\n\",a)\nb = np.linalg.inv(a)\nprint(\"Inverse:\\n\",b)",
+        "detail": "linear_algebra.algebra",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "linear_algebra.algebra",
+        "description": "linear_algebra.algebra",
+        "peekOfCode": "a = np.array([[1,2],[3,4]])\nprint(\"Original array:\\n\",a)\nb = np.linalg.inv(a)\nprint(\"Inverse:\\n\",b)",
+        "detail": "linear_algebra.algebra",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "linear_algebra.algebra",
+        "description": "linear_algebra.algebra",
+        "peekOfCode": "b = np.linalg.inv(a)\nprint(\"Inverse:\\n\",b)",
+        "detail": "linear_algebra.algebra",
+        "documentation": {}
+    },
+    {
+        "label": "trace",
+        "kind": 2,
+        "importPath": "magic",
+        "description": "magic",
+        "peekOfCode": "def trace(array):\n    if array.ndim!=2 or array.shape[0]!=array.shape[1]:\n        return None\n    trace=0\n    for i in range(array.shape[0]):\n        trace+=array[i,i]\n    return trace\ndef magic(array):\n    trace=trace(array)\n    mat=np.fill(array.shape,trace)",
+        "detail": "magic",
+        "documentation": {}
+    },
+    {
+        "label": "magic",
+        "kind": 2,
+        "importPath": "magic",
+        "description": "magic",
+        "peekOfCode": "def magic(array):\n    trace=trace(array)\n    mat=np.fill(array.shape,trace)\n    row_sum_mat=np.sum(axis=1)\n    col_sum_mat=np.sum(axis=0)\n    return mat==row_sum_mat==col_sum_mat\narr=np.array([[1,2,3],[4,5,6],[7,8,9]])\nfor elt in arr:\n    print(elt)\n    print(\"type(elt):\",type(elt),\"elt.ndim:\",elt.ndim)",
+        "detail": "magic",
+        "documentation": {}
+    }
+]

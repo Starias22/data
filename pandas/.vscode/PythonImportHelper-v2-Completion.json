@@ -1,0 +1,38 @@
+[
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "lang",
+        "kind": 5,
+        "importPath": "1Series.map",
+        "description": "1Series.map",
+        "peekOfCode": "lang = pd.Series(['Java', 'C', 'C++', 'Python'])\ndesc=lang.map({'Java': 'Android development','Python':'Data science language','C++':'So fast'})\nprint(lang)\nprint(desc)\nlang[4]='Perl'\nlang[5]=np.nan\nprint(lang)\nlikeLang=lang.map('I like {} programming language'.format)\nprint(likeLang)\nlikeLang=lang.map('I like {} programming language'.format,na_action='ignore')",
+        "detail": "1Series.map",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "1Series.value_couts",
+        "description": "1Series.value_couts",
+        "peekOfCode": "index = pd.Index([2, 1, 1, np.nan, 3])\nx=index.value_counts()\nprint(x)",
+        "detail": "1Series.value_couts",
+        "documentation": {}
+    }
+]

@@ -1,0 +1,542 @@
+[
+    {
+        "label": "matplotlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib",
+        "description": "matplotlib",
+        "detail": "matplotlib",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "10Histograms.hist",
+        "description": "10Histograms.hist",
+        "peekOfCode": "x = np.random.normal(170, 10, 250)\nprint(x)\nplt.hist(x)\nplt.show()\n#color,alpha,density,bins",
+        "detail": "10Histograms.hist",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "11Piechart.pie",
+        "description": "11Piechart.pie",
+        "peekOfCode": "y = np.array([35, 25, 25, 15])\nplt.pie(y)\nplt.title('My first pie chart',loc='right')\nplt.show()\n#labels\nmylabels = [\"Apples\", \"Bananas\", \"Cherries\", \"Dates\"]\nplt.pie(y, labels = mylabels)\nplt.title('A pie chart with label',loc='right')\nplt.show()\n# start angle",
+        "detail": "11Piechart.pie",
+        "documentation": {}
+    },
+    {
+        "label": "mylabels",
+        "kind": 5,
+        "importPath": "11Piechart.pie",
+        "description": "11Piechart.pie",
+        "peekOfCode": "mylabels = [\"Apples\", \"Bananas\", \"Cherries\", \"Dates\"]\nplt.pie(y, labels = mylabels)\nplt.title('A pie chart with label',loc='right')\nplt.show()\n# start angle\nplt.pie(y, labels = mylabels, startangle = 90)\nplt.show()\n#colors\nmycolors = [\"black\", \"hotpink\", \"b\", \"#4CAF50\"]\nplt.pie(y, labels = mylabels, startangle = 90,colors=mycolors)",
+        "detail": "11Piechart.pie",
+        "documentation": {}
+    },
+    {
+        "label": "mycolors",
+        "kind": 5,
+        "importPath": "11Piechart.pie",
+        "description": "11Piechart.pie",
+        "peekOfCode": "mycolors = [\"black\", \"hotpink\", \"b\", \"#4CAF50\"]\nplt.pie(y, labels = mylabels, startangle = 90,colors=mycolors)\nplt.show()\n#explode\nmyexplode = [0.2, 0, 0, 0]\nmycolors = [\"blue\", \"hotpink\", \"m\", \"#4CAF50\"]\nplt.pie(y, labels = mylabels, startangle = 20.55,colors=mycolors,explode=myexplode)\nplt.show()\n#shadow\nplt.pie(y, labels = mylabels, startangle = 20.55,colors=mycolors,explode=myexplode,shadow=True)#default False",
+        "detail": "11Piechart.pie",
+        "documentation": {}
+    },
+    {
+        "label": "myexplode",
+        "kind": 5,
+        "importPath": "11Piechart.pie",
+        "description": "11Piechart.pie",
+        "peekOfCode": "myexplode = [0.2, 0, 0, 0]\nmycolors = [\"blue\", \"hotpink\", \"m\", \"#4CAF50\"]\nplt.pie(y, labels = mylabels, startangle = 20.55,colors=mycolors,explode=myexplode)\nplt.show()\n#shadow\nplt.pie(y, labels = mylabels, startangle = 20.55,colors=mycolors,explode=myexplode,shadow=True)#default False\nplt.show()\n#legend\nplt.pie(y, labels = mylabels, startangle = 20.55,colors=mycolors,explode=myexplode)\nplt.legend()",
+        "detail": "11Piechart.pie",
+        "documentation": {}
+    },
+    {
+        "label": "mycolors",
+        "kind": 5,
+        "importPath": "11Piechart.pie",
+        "description": "11Piechart.pie",
+        "peekOfCode": "mycolors = [\"blue\", \"hotpink\", \"m\", \"#4CAF50\"]\nplt.pie(y, labels = mylabels, startangle = 20.55,colors=mycolors,explode=myexplode)\nplt.show()\n#shadow\nplt.pie(y, labels = mylabels, startangle = 20.55,colors=mycolors,explode=myexplode,shadow=True)#default False\nplt.show()\n#legend\nplt.pie(y, labels = mylabels, startangle = 20.55,colors=mycolors,explode=myexplode)\nplt.legend()\nplt.show()",
+        "detail": "11Piechart.pie",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 5,
+        "importPath": "12Fnctions.func",
+        "description": "12Fnctions.func",
+        "peekOfCode": "f = lambda x: 2*x + 5\n# Define a range of x values\nx = range(-10, 11)\n# Evaluate the function for each value of x\ny = [f(i) for i in x]\n# Plot the function\nplt.plot(x, y)\n# Add labels to the axes\nplt.xlabel('x')\nplt.ylabel('2x + 5')",
+        "detail": "12Fnctions.func",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "12Fnctions.func",
+        "description": "12Fnctions.func",
+        "peekOfCode": "x = range(-10, 11)\n# Evaluate the function for each value of x\ny = [f(i) for i in x]\n# Plot the function\nplt.plot(x, y)\n# Add labels to the axes\nplt.xlabel('x')\nplt.ylabel('2x + 5')\n# Display the plot\nplt.show()",
+        "detail": "12Fnctions.func",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "12Fnctions.func",
+        "description": "12Fnctions.func",
+        "peekOfCode": "y = [f(i) for i in x]\n# Plot the function\nplt.plot(x, y)\n# Add labels to the axes\nplt.xlabel('x')\nplt.ylabel('2x + 5')\n# Display the plot\nplt.show()\nx = np.linspace(0, 10, 1000)\nplt.plot(x,np.sin(x))",
+        "detail": "12Fnctions.func",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "12Fnctions.func",
+        "description": "12Fnctions.func",
+        "peekOfCode": "x = np.linspace(0, 10, 1000)\nplt.plot(x,np.sin(x))\nplt.show()",
+        "detail": "12Fnctions.func",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 5,
+        "importPath": "5Labels.label",
+        "description": "5Labels.label",
+        "peekOfCode": "math = np.array([20, 15, 9,15 , 18, 15, 0, 12,2,5])\ncs = np.array([20, 15, 8, 12, 19, 16, 5, 14,5,10])\nplt.plot(math, cs)\nplt.xlabel(\"Math marks\")\nplt.ylabel(\"Computer science marks\")\nplt.title('Math and computer science marks')\nplt.show()\n#title position(left,center,right)\nplt.plot(math, cs,marker='o')\nplt.title('Default')",
+        "detail": "5Labels.label",
+        "documentation": {}
+    },
+    {
+        "label": "cs",
+        "kind": 5,
+        "importPath": "5Labels.label",
+        "description": "5Labels.label",
+        "peekOfCode": "cs = np.array([20, 15, 8, 12, 19, 16, 5, 14,5,10])\nplt.plot(math, cs)\nplt.xlabel(\"Math marks\")\nplt.ylabel(\"Computer science marks\")\nplt.title('Math and computer science marks')\nplt.show()\n#title position(left,center,right)\nplt.plot(math, cs,marker='o')\nplt.title('Default')\nplt.show()",
+        "detail": "5Labels.label",
+        "documentation": {}
+    },
+    {
+        "label": "font1",
+        "kind": 5,
+        "importPath": "5Labels.label",
+        "description": "5Labels.label",
+        "peekOfCode": "font1 = {'family':'serif','color':'r','size':20}\nfont2 = {'color':'hotpink','size':15}\nplt.title('Relation', fontdict = font1)\nplt.xlabel('Math', fontdict = font2)\nplt.ylabel('Computer science', fontdict = font2)\nplt.show()",
+        "detail": "5Labels.label",
+        "documentation": {}
+    },
+    {
+        "label": "font2",
+        "kind": 5,
+        "importPath": "5Labels.label",
+        "description": "5Labels.label",
+        "peekOfCode": "font2 = {'color':'hotpink','size':15}\nplt.title('Relation', fontdict = font1)\nplt.xlabel('Math', fontdict = font2)\nplt.ylabel('Computer science', fontdict = font2)\nplt.show()",
+        "detail": "5Labels.label",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "7Subplot.fic",
+        "description": "7Subplot.fic",
+        "peekOfCode": "x = np.array([0, 1, 2, 3])\ny = np.array([3, 8, 1, 10])\nplt.subplot(2, 3, 1)\nplt.plot(x,y)\nx = np.array([0, 1, 2, 3])\ny = np.array([10, 20, 30, 40])\nplt.subplot(2, 3, 2)\nplt.plot(x,y)\nx = np.array([0, 1, 2, 3])\ny = np.array([3, 8, 1, 10])",
+        "detail": "7Subplot.fic",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "7Subplot.fic",
+        "description": "7Subplot.fic",
+        "peekOfCode": "y = np.array([3, 8, 1, 10])\nplt.subplot(2, 3, 1)\nplt.plot(x,y)\nx = np.array([0, 1, 2, 3])\ny = np.array([10, 20, 30, 40])\nplt.subplot(2, 3, 2)\nplt.plot(x,y)\nx = np.array([0, 1, 2, 3])\ny = np.array([3, 8, 1, 10])\nplt.subplot(2, 3, 3)",
+        "detail": "7Subplot.fic",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "7Subplot.fic",
+        "description": "7Subplot.fic",
+        "peekOfCode": "x = np.array([0, 1, 2, 3])\ny = np.array([10, 20, 30, 40])\nplt.subplot(2, 3, 2)\nplt.plot(x,y)\nx = np.array([0, 1, 2, 3])\ny = np.array([3, 8, 1, 10])\nplt.subplot(2, 3, 3)\nplt.plot(x,y)\nx = np.array([0, 1, 2, 3])\ny = np.array([10, 20, 30, 40])",
+        "detail": "7Subplot.fic",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "7Subplot.fic",
+        "description": "7Subplot.fic",
+        "peekOfCode": "y = np.array([10, 20, 30, 40])\nplt.subplot(2, 3, 2)\nplt.plot(x,y)\nx = np.array([0, 1, 2, 3])\ny = np.array([3, 8, 1, 10])\nplt.subplot(2, 3, 3)\nplt.plot(x,y)\nx = np.array([0, 1, 2, 3])\ny = np.array([10, 20, 30, 40])\nplt.subplot(2, 3, 4)",
+        "detail": "7Subplot.fic",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "7Subplot.fic",
+        "description": "7Subplot.fic",
+        "peekOfCode": "x = np.array([0, 1, 2, 3])\ny = np.array([3, 8, 1, 10])\nplt.subplot(2, 3, 3)\nplt.plot(x,y)\nx = np.array([0, 1, 2, 3])\ny = np.array([10, 20, 30, 40])\nplt.subplot(2, 3, 4)\nplt.plot(x,y)\nx = np.array([0, 1, 2, 3])\ny = np.array([3, 8, 1, 10])",
+        "detail": "7Subplot.fic",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "7Subplot.fic",
+        "description": "7Subplot.fic",
+        "peekOfCode": "y = np.array([3, 8, 1, 10])\nplt.subplot(2, 3, 3)\nplt.plot(x,y)\nx = np.array([0, 1, 2, 3])\ny = np.array([10, 20, 30, 40])\nplt.subplot(2, 3, 4)\nplt.plot(x,y)\nx = np.array([0, 1, 2, 3])\ny = np.array([3, 8, 1, 10])\nplt.subplot(2, 3, 5)",
+        "detail": "7Subplot.fic",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "7Subplot.fic",
+        "description": "7Subplot.fic",
+        "peekOfCode": "x = np.array([0, 1, 2, 3])\ny = np.array([10, 20, 30, 40])\nplt.subplot(2, 3, 4)\nplt.plot(x,y)\nx = np.array([0, 1, 2, 3])\ny = np.array([3, 8, 1, 10])\nplt.subplot(2, 3, 5)\nplt.plot(x,y)\nx = np.array([0, 1, 2, 3])\ny = np.array([10, 20, 30, 40])",
+        "detail": "7Subplot.fic",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "7Subplot.fic",
+        "description": "7Subplot.fic",
+        "peekOfCode": "y = np.array([10, 20, 30, 40])\nplt.subplot(2, 3, 4)\nplt.plot(x,y)\nx = np.array([0, 1, 2, 3])\ny = np.array([3, 8, 1, 10])\nplt.subplot(2, 3, 5)\nplt.plot(x,y)\nx = np.array([0, 1, 2, 3])\ny = np.array([10, 20, 30, 40])\nplt.subplot(2, 3, 6)",
+        "detail": "7Subplot.fic",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "7Subplot.fic",
+        "description": "7Subplot.fic",
+        "peekOfCode": "x = np.array([0, 1, 2, 3])\ny = np.array([3, 8, 1, 10])\nplt.subplot(2, 3, 5)\nplt.plot(x,y)\nx = np.array([0, 1, 2, 3])\ny = np.array([10, 20, 30, 40])\nplt.subplot(2, 3, 6)\nplt.plot(x,y)\nplt.suptitle('Super title')\nplt.show()",
+        "detail": "7Subplot.fic",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "7Subplot.fic",
+        "description": "7Subplot.fic",
+        "peekOfCode": "y = np.array([3, 8, 1, 10])\nplt.subplot(2, 3, 5)\nplt.plot(x,y)\nx = np.array([0, 1, 2, 3])\ny = np.array([10, 20, 30, 40])\nplt.subplot(2, 3, 6)\nplt.plot(x,y)\nplt.suptitle('Super title')\nplt.show()",
+        "detail": "7Subplot.fic",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "7Subplot.fic",
+        "description": "7Subplot.fic",
+        "peekOfCode": "x = np.array([0, 1, 2, 3])\ny = np.array([10, 20, 30, 40])\nplt.subplot(2, 3, 6)\nplt.plot(x,y)\nplt.suptitle('Super title')\nplt.show()",
+        "detail": "7Subplot.fic",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "7Subplot.fic",
+        "description": "7Subplot.fic",
+        "peekOfCode": "y = np.array([10, 20, 30, 40])\nplt.subplot(2, 3, 6)\nplt.plot(x,y)\nplt.suptitle('Super title')\nplt.show()",
+        "detail": "7Subplot.fic",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "8Scatter.scatter",
+        "description": "8Scatter.scatter",
+        "peekOfCode": "x = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])\ny = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\nfont1={'family':'serif','size':20,'color':'hotpink'}\nfont2={'family':'serif','size':15,'color':'black'}\nplt.title('Cars analysis',fontdict=font1)\nplt.xlabel('Age',fontdict=font2)\nplt.ylabel('Speed',fontdict=font2)\nplt.scatter(x, y)\nplt.show()\n#day one, the age and speed of 13 cars:",
+        "detail": "8Scatter.scatter",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "8Scatter.scatter",
+        "description": "8Scatter.scatter",
+        "peekOfCode": "y = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\nfont1={'family':'serif','size':20,'color':'hotpink'}\nfont2={'family':'serif','size':15,'color':'black'}\nplt.title('Cars analysis',fontdict=font1)\nplt.xlabel('Age',fontdict=font2)\nplt.ylabel('Speed',fontdict=font2)\nplt.scatter(x, y)\nplt.show()\n#day one, the age and speed of 13 cars:\nx = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])",
+        "detail": "8Scatter.scatter",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "8Scatter.scatter",
+        "description": "8Scatter.scatter",
+        "peekOfCode": "x = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])\ny = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\nplt.scatter(x, y)\n#day two, the age and speed of 15 cars:\nx = np.array([2,2,8,1,15,8,12,9,7,3,11,4,7,14,12])\ny = np.array([100,105,84,105,90,99,90,95,94,100,79,112,91,80,85])\nplt.scatter(x, y)\nplt.title('Cars analysis',fontdict=font1)\nplt.xlabel('Age',fontdict=font2)\nplt.ylabel('Speed',fontdict=font2)",
+        "detail": "8Scatter.scatter",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "8Scatter.scatter",
+        "description": "8Scatter.scatter",
+        "peekOfCode": "y = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\nplt.scatter(x, y)\n#day two, the age and speed of 15 cars:\nx = np.array([2,2,8,1,15,8,12,9,7,3,11,4,7,14,12])\ny = np.array([100,105,84,105,90,99,90,95,94,100,79,112,91,80,85])\nplt.scatter(x, y)\nplt.title('Cars analysis',fontdict=font1)\nplt.xlabel('Age',fontdict=font2)\nplt.ylabel('Speed',fontdict=font2)\nplt.show()",
+        "detail": "8Scatter.scatter",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "8Scatter.scatter",
+        "description": "8Scatter.scatter",
+        "peekOfCode": "x = np.array([2,2,8,1,15,8,12,9,7,3,11,4,7,14,12])\ny = np.array([100,105,84,105,90,99,90,95,94,100,79,112,91,80,85])\nplt.scatter(x, y)\nplt.title('Cars analysis',fontdict=font1)\nplt.xlabel('Age',fontdict=font2)\nplt.ylabel('Speed',fontdict=font2)\nplt.show()\n#color or c\nx = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])\ny = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])",
+        "detail": "8Scatter.scatter",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "8Scatter.scatter",
+        "description": "8Scatter.scatter",
+        "peekOfCode": "y = np.array([100,105,84,105,90,99,90,95,94,100,79,112,91,80,85])\nplt.scatter(x, y)\nplt.title('Cars analysis',fontdict=font1)\nplt.xlabel('Age',fontdict=font2)\nplt.ylabel('Speed',fontdict=font2)\nplt.show()\n#color or c\nx = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])\ny = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\nplt.scatter(x, y, color = 'hotpink')",
+        "detail": "8Scatter.scatter",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "8Scatter.scatter",
+        "description": "8Scatter.scatter",
+        "peekOfCode": "x = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])\ny = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\nplt.scatter(x, y, color = 'hotpink')\nx = np.array([2,2,8,1,15,8,12,9,7,3,11,4,7,14,12])\ny = np.array([100,105,84,105,90,99,90,95,94,100,79,112,91,80,85])\nplt.scatter(x, y, c = '#88c999')\nplt.show()\n#color each plot(dot):c\nx = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])\ny = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])",
+        "detail": "8Scatter.scatter",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "8Scatter.scatter",
+        "description": "8Scatter.scatter",
+        "peekOfCode": "y = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\nplt.scatter(x, y, color = 'hotpink')\nx = np.array([2,2,8,1,15,8,12,9,7,3,11,4,7,14,12])\ny = np.array([100,105,84,105,90,99,90,95,94,100,79,112,91,80,85])\nplt.scatter(x, y, c = '#88c999')\nplt.show()\n#color each plot(dot):c\nx = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])\ny = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\ncolors = np.array([\"red\",\"green\",\"b\",\"y\",\"pink\",\"#000\",\"orange\",\"purple\",\"beige\",\"brown\",\"gray\",\"cyan\",\"m\"])",
+        "detail": "8Scatter.scatter",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "8Scatter.scatter",
+        "description": "8Scatter.scatter",
+        "peekOfCode": "x = np.array([2,2,8,1,15,8,12,9,7,3,11,4,7,14,12])\ny = np.array([100,105,84,105,90,99,90,95,94,100,79,112,91,80,85])\nplt.scatter(x, y, c = '#88c999')\nplt.show()\n#color each plot(dot):c\nx = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])\ny = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\ncolors = np.array([\"red\",\"green\",\"b\",\"y\",\"pink\",\"#000\",\"orange\",\"purple\",\"beige\",\"brown\",\"gray\",\"cyan\",\"m\"])\nplt.scatter(x, y, c=colors)\nplt.show()",
+        "detail": "8Scatter.scatter",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "8Scatter.scatter",
+        "description": "8Scatter.scatter",
+        "peekOfCode": "y = np.array([100,105,84,105,90,99,90,95,94,100,79,112,91,80,85])\nplt.scatter(x, y, c = '#88c999')\nplt.show()\n#color each plot(dot):c\nx = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])\ny = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\ncolors = np.array([\"red\",\"green\",\"b\",\"y\",\"pink\",\"#000\",\"orange\",\"purple\",\"beige\",\"brown\",\"gray\",\"cyan\",\"m\"])\nplt.scatter(x, y, c=colors)\nplt.show()\n#color map",
+        "detail": "8Scatter.scatter",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "8Scatter.scatter",
+        "description": "8Scatter.scatter",
+        "peekOfCode": "x = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])\ny = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\ncolors = np.array([\"red\",\"green\",\"b\",\"y\",\"pink\",\"#000\",\"orange\",\"purple\",\"beige\",\"brown\",\"gray\",\"cyan\",\"m\"])\nplt.scatter(x, y, c=colors)\nplt.show()\n#color map\nx = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])\ny = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\ncolors = np.array([0, 10, 20, 30, 40, 45, 50, 55, 60, 70, 80, 90, 100])\nplt.title('Color map')",
+        "detail": "8Scatter.scatter",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "8Scatter.scatter",
+        "description": "8Scatter.scatter",
+        "peekOfCode": "y = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\ncolors = np.array([\"red\",\"green\",\"b\",\"y\",\"pink\",\"#000\",\"orange\",\"purple\",\"beige\",\"brown\",\"gray\",\"cyan\",\"m\"])\nplt.scatter(x, y, c=colors)\nplt.show()\n#color map\nx = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])\ny = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\ncolors = np.array([0, 10, 20, 30, 40, 45, 50, 55, 60, 70, 80, 90, 100])\nplt.title('Color map')\nplt.scatter(x, y, c=colors, cmap='rainbow')",
+        "detail": "8Scatter.scatter",
+        "documentation": {}
+    },
+    {
+        "label": "colors",
+        "kind": 5,
+        "importPath": "8Scatter.scatter",
+        "description": "8Scatter.scatter",
+        "peekOfCode": "colors = np.array([\"red\",\"green\",\"b\",\"y\",\"pink\",\"#000\",\"orange\",\"purple\",\"beige\",\"brown\",\"gray\",\"cyan\",\"m\"])\nplt.scatter(x, y, c=colors)\nplt.show()\n#color map\nx = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])\ny = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\ncolors = np.array([0, 10, 20, 30, 40, 45, 50, 55, 60, 70, 80, 90, 100])\nplt.title('Color map')\nplt.scatter(x, y, c=colors, cmap='rainbow')\nplt.show()",
+        "detail": "8Scatter.scatter",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "8Scatter.scatter",
+        "description": "8Scatter.scatter",
+        "peekOfCode": "x = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])\ny = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\ncolors = np.array([0, 10, 20, 30, 40, 45, 50, 55, 60, 70, 80, 90, 100])\nplt.title('Color map')\nplt.scatter(x, y, c=colors, cmap='rainbow')\nplt.show()\n#with the colorbar\nx = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])\ny = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\ncolors = np.array([0, 10, 20, 30, 40, 45, 50, 55, 60, 70, 80, 90, 100])",
+        "detail": "8Scatter.scatter",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "8Scatter.scatter",
+        "description": "8Scatter.scatter",
+        "peekOfCode": "y = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\ncolors = np.array([0, 10, 20, 30, 40, 45, 50, 55, 60, 70, 80, 90, 100])\nplt.title('Color map')\nplt.scatter(x, y, c=colors, cmap='rainbow')\nplt.show()\n#with the colorbar\nx = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])\ny = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\ncolors = np.array([0, 10, 20, 30, 40, 45, 50, 55, 60, 70, 80, 90, 100])\nplt.title('Color map with color bar')",
+        "detail": "8Scatter.scatter",
+        "documentation": {}
+    },
+    {
+        "label": "colors",
+        "kind": 5,
+        "importPath": "8Scatter.scatter",
+        "description": "8Scatter.scatter",
+        "peekOfCode": "colors = np.array([0, 10, 20, 30, 40, 45, 50, 55, 60, 70, 80, 90, 100])\nplt.title('Color map')\nplt.scatter(x, y, c=colors, cmap='rainbow')\nplt.show()\n#with the colorbar\nx = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])\ny = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\ncolors = np.array([0, 10, 20, 30, 40, 45, 50, 55, 60, 70, 80, 90, 100])\nplt.title('Color map with color bar')\nplt.scatter(x, y, c=colors, cmap='rainbow')",
+        "detail": "8Scatter.scatter",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "8Scatter.scatter",
+        "description": "8Scatter.scatter",
+        "peekOfCode": "x = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])\ny = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\ncolors = np.array([0, 10, 20, 30, 40, 45, 50, 55, 60, 70, 80, 90, 100])\nplt.title('Color map with color bar')\nplt.scatter(x, y, c=colors, cmap='rainbow')\nplt.colorbar()\nplt.show()\n#size of the dots\nx = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])\ny = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])",
+        "detail": "8Scatter.scatter",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "8Scatter.scatter",
+        "description": "8Scatter.scatter",
+        "peekOfCode": "y = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\ncolors = np.array([0, 10, 20, 30, 40, 45, 50, 55, 60, 70, 80, 90, 100])\nplt.title('Color map with color bar')\nplt.scatter(x, y, c=colors, cmap='rainbow')\nplt.colorbar()\nplt.show()\n#size of the dots\nx = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])\ny = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\nsizes = np.array([20,50,100,200,500,1000,60,90,10,300,600,800,75])",
+        "detail": "8Scatter.scatter",
+        "documentation": {}
+    },
+    {
+        "label": "colors",
+        "kind": 5,
+        "importPath": "8Scatter.scatter",
+        "description": "8Scatter.scatter",
+        "peekOfCode": "colors = np.array([0, 10, 20, 30, 40, 45, 50, 55, 60, 70, 80, 90, 100])\nplt.title('Color map with color bar')\nplt.scatter(x, y, c=colors, cmap='rainbow')\nplt.colorbar()\nplt.show()\n#size of the dots\nx = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])\ny = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\nsizes = np.array([20,50,100,200,500,1000,60,90,10,300,600,800,75])\nplt.scatter(x, y, s=sizes)",
+        "detail": "8Scatter.scatter",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "8Scatter.scatter",
+        "description": "8Scatter.scatter",
+        "peekOfCode": "x = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])\ny = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\nsizes = np.array([20,50,100,200,500,1000,60,90,10,300,600,800,75])\nplt.scatter(x, y, s=sizes)\nplt.show()\n#alpha(transparency)\nx = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])\ny = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\nsizes = np.array([20,50,100,200,500,1000,60,90,10,300,600,800,75])\nplt.scatter(x, y, s=sizes, alpha=0.5)",
+        "detail": "8Scatter.scatter",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "8Scatter.scatter",
+        "description": "8Scatter.scatter",
+        "peekOfCode": "y = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\nsizes = np.array([20,50,100,200,500,1000,60,90,10,300,600,800,75])\nplt.scatter(x, y, s=sizes)\nplt.show()\n#alpha(transparency)\nx = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])\ny = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\nsizes = np.array([20,50,100,200,500,1000,60,90,10,300,600,800,75])\nplt.scatter(x, y, s=sizes, alpha=0.5)\nplt.show()",
+        "detail": "8Scatter.scatter",
+        "documentation": {}
+    },
+    {
+        "label": "sizes",
+        "kind": 5,
+        "importPath": "8Scatter.scatter",
+        "description": "8Scatter.scatter",
+        "peekOfCode": "sizes = np.array([20,50,100,200,500,1000,60,90,10,300,600,800,75])\nplt.scatter(x, y, s=sizes)\nplt.show()\n#alpha(transparency)\nx = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])\ny = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\nsizes = np.array([20,50,100,200,500,1000,60,90,10,300,600,800,75])\nplt.scatter(x, y, s=sizes, alpha=0.5)\nplt.show()\n#combine size and alpha",
+        "detail": "8Scatter.scatter",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "8Scatter.scatter",
+        "description": "8Scatter.scatter",
+        "peekOfCode": "x = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])\ny = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\nsizes = np.array([20,50,100,200,500,1000,60,90,10,300,600,800,75])\nplt.scatter(x, y, s=sizes, alpha=0.5)\nplt.show()\n#combine size and alpha\nx = np.random.randint(100, size=(100))\ny = np.random.randint(100, size=(100))\ncolors = np.random.randint(100, size=(100))\nsizes = 10 * np.random.randint(100, size=(100))",
+        "detail": "8Scatter.scatter",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "8Scatter.scatter",
+        "description": "8Scatter.scatter",
+        "peekOfCode": "y = np.array([99,86,87,88,111,86,103,87,94,78,77,85,86])\nsizes = np.array([20,50,100,200,500,1000,60,90,10,300,600,800,75])\nplt.scatter(x, y, s=sizes, alpha=0.5)\nplt.show()\n#combine size and alpha\nx = np.random.randint(100, size=(100))\ny = np.random.randint(100, size=(100))\ncolors = np.random.randint(100, size=(100))\nsizes = 10 * np.random.randint(100, size=(100))\nplt.scatter(x, y, c=colors, s=sizes, alpha=0.5, cmap='nipy_spectral')",
+        "detail": "8Scatter.scatter",
+        "documentation": {}
+    },
+    {
+        "label": "sizes",
+        "kind": 5,
+        "importPath": "8Scatter.scatter",
+        "description": "8Scatter.scatter",
+        "peekOfCode": "sizes = np.array([20,50,100,200,500,1000,60,90,10,300,600,800,75])\nplt.scatter(x, y, s=sizes, alpha=0.5)\nplt.show()\n#combine size and alpha\nx = np.random.randint(100, size=(100))\ny = np.random.randint(100, size=(100))\ncolors = np.random.randint(100, size=(100))\nsizes = 10 * np.random.randint(100, size=(100))\nplt.scatter(x, y, c=colors, s=sizes, alpha=0.5, cmap='nipy_spectral')\nplt.colorbar()",
+        "detail": "8Scatter.scatter",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "8Scatter.scatter",
+        "description": "8Scatter.scatter",
+        "peekOfCode": "x = np.random.randint(100, size=(100))\ny = np.random.randint(100, size=(100))\ncolors = np.random.randint(100, size=(100))\nsizes = 10 * np.random.randint(100, size=(100))\nplt.scatter(x, y, c=colors, s=sizes, alpha=0.5, cmap='nipy_spectral')\nplt.colorbar()\nplt.show()",
+        "detail": "8Scatter.scatter",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "8Scatter.scatter",
+        "description": "8Scatter.scatter",
+        "peekOfCode": "y = np.random.randint(100, size=(100))\ncolors = np.random.randint(100, size=(100))\nsizes = 10 * np.random.randint(100, size=(100))\nplt.scatter(x, y, c=colors, s=sizes, alpha=0.5, cmap='nipy_spectral')\nplt.colorbar()\nplt.show()",
+        "detail": "8Scatter.scatter",
+        "documentation": {}
+    },
+    {
+        "label": "colors",
+        "kind": 5,
+        "importPath": "8Scatter.scatter",
+        "description": "8Scatter.scatter",
+        "peekOfCode": "colors = np.random.randint(100, size=(100))\nsizes = 10 * np.random.randint(100, size=(100))\nplt.scatter(x, y, c=colors, s=sizes, alpha=0.5, cmap='nipy_spectral')\nplt.colorbar()\nplt.show()",
+        "detail": "8Scatter.scatter",
+        "documentation": {}
+    },
+    {
+        "label": "sizes",
+        "kind": 5,
+        "importPath": "8Scatter.scatter",
+        "description": "8Scatter.scatter",
+        "peekOfCode": "sizes = 10 * np.random.randint(100, size=(100))\nplt.scatter(x, y, c=colors, s=sizes, alpha=0.5, cmap='nipy_spectral')\nplt.colorbar()\nplt.show()",
+        "detail": "8Scatter.scatter",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "9Bars.bar",
+        "description": "9Bars.bar",
+        "peekOfCode": "x = np.array([\"Apple\", \"Bananas\", \"Pineapple\", \"Mango\"])\ny = np.array([45, 350, 20.8, 58])\nplt.bar(x,y)\nplt.show()\n#Horizontal bar\nplt.barh(x,y)\nplt.title('Horizontal bar')\nplt.show()\n#bar color\n##color cannot be a string; it should be a list",
+        "detail": "9Bars.bar",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "9Bars.bar",
+        "description": "9Bars.bar",
+        "peekOfCode": "y = np.array([45, 350, 20.8, 58])\nplt.bar(x,y)\nplt.show()\n#Horizontal bar\nplt.barh(x,y)\nplt.title('Horizontal bar')\nplt.show()\n#bar color\n##color cannot be a string; it should be a list\nplt.bar(x,y,color=['hotpink','blue','m','#000'])",
+        "detail": "9Bars.bar",
+        "documentation": {}
+    }
+]
