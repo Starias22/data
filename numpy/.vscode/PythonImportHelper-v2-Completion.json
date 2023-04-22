@@ -139,7 +139,7 @@
         "kind": 5,
         "importPath": "3-create_array.arange",
         "description": "3-create_array.arange",
-        "peekOfCode": "arr = np.arange(10,50,5,dtype=int)\nprint(\"The array over the given range is \",arr)",
+        "peekOfCode": "arr = np.arange(10,50,5,dtype=int)\nprint(\"The array over the given range is \",arr)\narr=np.arange(start=20,stop=30)\nprint(arr)",
         "detail": "3-create_array.arange",
         "documentation": {}
     },
