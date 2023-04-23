@@ -78,3 +78,12 @@ print(arr)
 arr=np.array([[0.89,-95.88,0],[4.8,-9.,4]],dtype=complex)
 print(arr)
 print(arr.astype(str))
+
+
+cplx=np.array([1,2,5,7],dtype=complex)
+print("complex array:",cplx)
+print("elements type:",cplx.dtype)
+
+arr=np.array([[1,2,3],[4,5,6]],dtype=float)
+print("arr:",arr,sep="\n")
+print("elements type:",arr.dtype)

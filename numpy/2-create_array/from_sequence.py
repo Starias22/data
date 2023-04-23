@@ -8,9 +8,6 @@ tup=tuple(lst)
 print('tup:',tup)
 arr2=np.array(tup)
 
-"""if arr.ravel().tolist()==arr2.ravel().tolist()==lst:
-    print('Of course')"""
-
 arr=np.array(lst,order='F')
 print("arr:",arr)
 print(arr.shape)
