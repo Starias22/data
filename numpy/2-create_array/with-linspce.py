@@ -19,3 +19,8 @@ print(arr)
 arr=np.linspace(start=1,stop=20,num=80,endpoint=True)
 print(arr)
 print('arr.size:',arr.size)
+
+x=arr=np.linspace(1,20,num=5,retstep=True)
+print(x)
+print('array:',x[0])
+print('step:',x[1])

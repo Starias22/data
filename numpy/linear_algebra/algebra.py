@@ -55,3 +55,27 @@ print("Original array:\n",a)
 b = np.linalg.inv(a)
 print("Inverse:\n",b)
 
+
+array1=np.array([[1,2,3],[4,5,6],[7,8,9]],ndmin=3)
+array2=np.array([[9,8,7],[6,5,4],[3,2,1]],ndmin=3)
+
+result=a*b
+print('**********')
+print(result)
+result=np.multiply(array1,array2)
+print(result)
+
+result=np.matmul(array1,array2)
+print(result)
+
+result=np.dot(array1,array2)
+
+print(result)
+"""These are the following specifications for numpy.dot:
+
+When both a and b are 1-D (one dimensional) arrays-> Inner product of two vectors (without complex conjugation)
+When both a and b are 2-D (two dimensional) arrays -> Matrix multiplication
+When either a or b is 0-D (also known as a scalar) -> Multiply by using numpy.multiply(a, b) or a * b.
+When a is an N-D array and b is a 1-D array -> Sum product over the last axis of a and b.
+When a is an N-D array and b is an M-D array provided that M>=2 -> Sum product over the last axis of a and the second-to-last axis of b:
+Also, dot(a, b)[i,j,k,m] = sum(a[i,j,:] * b[k,:,m])"""

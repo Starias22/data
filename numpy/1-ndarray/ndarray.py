@@ -39,11 +39,6 @@ print("cplx.shape",cplx.shape)
 print("len(cplx.shape)",len(cplx.shape))
 
 
-
-
-
-
-
 arr = np.array([[1, 2, 3, 4], [4, 5, 6, 7], [9, 10, 11, 23]])
 print("arr.ndim:",arr.ndim)
 print("arr.itemsize:",arr.itemsize)
