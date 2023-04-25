@@ -1,5 +1,5 @@
 import numpy as np
-arr=np.array([1,2,3,4,3,6,2,4,2,1])
+"""arr=np.array([1,2,3,4,3,6,2,4,2,1])
 
 a=np.unique(arr)
 
@@ -23,4 +23,14 @@ print('b:',b,sep='\n')
 b=np.unique(a,axis=1)
 print('a:',a,sep='\n')
 print('b:',b,sep='\n')
+"""
+arr=np.array([[1,2,2,3],[1,4,3,5],[0,-9,7,-25]])
+
+
+ind=[0,1,1,2,2,1,0]
+print('arr:',arr,sep='\n')
+print('ind:',ind,sep='\n')
+
+print(arr[ind])
+
 
