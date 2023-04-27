@@ -100,3 +100,15 @@ print('ar:',ar)
 
 ar=arr[0:3,0:2:2]
 print('ar:',ar)
+
+array=np.array([ [1,5,6,8],[1,-5,6,9],[8,58,16,88]])
+
+for x in np.nditer(array):
+    print(x,end=' ')
+
+print('\n')
+
+arr = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])
+
+for idx, x in np.ndenumerate(arr):
+  print(idx, x)

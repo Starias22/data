@@ -105,3 +105,13 @@ print(u)
 arr[::-3]=924
 print(arr)
 
+arr=np.array([1,6,9,10,45])
+for x in np.nditer(arr):
+    print(x,end=' ')
+
+print('\n')
+
+arr = np.array([1, 2, 3])
+
+for idx, x in np.ndenumerate(arr):
+    print(idx, x)
