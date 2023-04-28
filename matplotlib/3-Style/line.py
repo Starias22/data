@@ -10,22 +10,12 @@ plt.show()
 plt.plot(ycoords,ls='dashed')
 plt.show()
 
-plt.plot(ycoords,'P:m',ls='--',ms=12,mec='#fff')
+plt.plot(ycoords,ls='--',ms=12,mec='#fff')
 plt.show()
 
 plt.plot(ycoords,ls=':',marker='o')
 plt.show()
 
-#linecolor
-
-plt.plot(ycoords,color='#d5a8b8')
-plt.show()
-
-plt.plot(ycoords,color='hotpink')
-plt.show()
-
-plt.plot(ycoords,color='black')
-plt.show()
 
 #line width or lw
 
@@ -37,6 +27,6 @@ plt.show()
 
 #multiple lines
 
-plt.plot(ycoords,color='#d5a8b8')
-plt.plot((45,8,-20,3.44,20,-9,7,8),lw=20)
+plt.plot(ycoords,ls=':',lw=5)
+plt.plot((45,8,-20,3.44,20,-9,7,8),lw=2,ls='--')
 plt.show()

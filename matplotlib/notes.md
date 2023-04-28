@@ -1,16 +1,28 @@
 # Matplotlib
 
+plt.axis(x1,x2,y1,y2)
+
+plt.fill_between
+
 ## Getting started
 
 ## Pyplot
 
 ## Plotting
 
-## Markers
+## Style
 
-## Line
+### Marker
 
-## Labels
+### Line
+
+### Color
+
+### Format string
+
+### Legend
+
+### Label
 
 ## Grid
 
@@ -18,15 +30,34 @@
 
 ## Satter plots
 
+## Pie chart
+
 ## Bar chat
 
 ## Histogram
 
-## Pie chart
-
 ## Function
 
+## Exercise
+
+<https://pynative.com/python-matplotlib-exercise/>
+
 ## Appendix
+
+### Matplotlib legend positions
+
+| Value          | Description                                                                  |
+|----------------|------------------------------------------------------------------------------|
+| `'best'`        |the best location for the legend based on the plot.  |
+| `'upper left'`  | upper-left corner of the plot.              |
+| `'upper right'` | upper-right corner of the plot.             |
+| `'lower left'`  | lower-left corner of the plot.              |
+| `'lower right'` | lower-right corner of the plot.             |
+| `'center left'` | vertically centered along the left edge of the plot.|
+| `'center right'`| vertically centered along the right edge of the plot.|
+| `'lower center'`| horizontally centered along the bottom edge of the plot.|
+| `'upper center'`|horizontally centered along the top edge of the plot.|
+| `'center'`      | center of the plot.                          |
 
 ### Matplotlib colors shorcuts
 
@@ -179,3 +210,15 @@
 | twilight_shifted      | twilight_shifted_r    |
 | viridis               | viridis_r             |
 | winter                | winter_r              |
+
+## File flormats supported by Matplotlib
+
+| Format     | Extension |
+|------------|-----------|
+| PDF        | .pdf      |
+| SVG        | .svg      |
+| PNG        | .png      |
+| JPG/JPEG   | .jpg/.jpeg|
+| BMP        | .bmp      |
+| GIF        | .gif      |
+| PGF        | .pgf      |

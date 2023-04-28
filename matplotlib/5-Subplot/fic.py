@@ -73,6 +73,7 @@ plt.subplot(2, 3, 6)
 plt.plot(x,y)
 
 plt.suptitle('Super title')
+
 plt.show()
 
 

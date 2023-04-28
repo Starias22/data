@@ -38,3 +38,9 @@ plt.show()
 y=(12.25,4,4,5,9,7)
 plt.plot(y,'o')
 plt.show()
+
+
+x=np.linspace(0, np.pi/2,num=100,endpoint=False)
+y=np.tan(x)
+plt.plot(x,y)
+plt.show()
