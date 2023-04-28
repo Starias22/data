@@ -4,6 +4,18 @@ plt.axis(x1,x2,y1,y2)
 
 plt.fill_between
 
+suplots
+
+xtricks
+ytricks
+
+xlim
+ylim
+
+set_xlabel
+
+set_ylabel
+
 ## Getting started
 
 ## Pyplot
