@@ -56,6 +56,8 @@ Minimuùm finding methods
 'SLSQP'
 'Nelder-Mead'
 
+Reference: w3shool and javatpoint
+
 ## The rest
 
 ### Spatial data
