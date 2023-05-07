@@ -14,3 +14,4 @@ print('type:',type(series))
 data=['Python','Pandas','Tutorial']
 dFrame=pd.DataFrame(data)
 print(dFrame)
+

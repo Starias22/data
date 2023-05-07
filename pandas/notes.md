@@ -15,3 +15,25 @@
 ### to_frame
 
 ### std
+
+## Data frame
+
+### Data fame basics
+
+### assign
+
+## Common
+
+### append
+
+### apply
+
+### aggregate
+
+### astype
+
+### count
+
+### describe
+
+### dr

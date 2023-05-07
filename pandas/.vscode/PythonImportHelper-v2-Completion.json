@@ -31,8 +31,26 @@
         "kind": 5,
         "importPath": "1Series.value_couts",
         "description": "1Series.value_couts",
-        "peekOfCode": "index = pd.Index([2, 1, 1, np.nan, 3])\nx=index.value_counts()\nprint(x)",
+        "peekOfCode": "index = pd.Index(['orange','mango' ,'orange',\n                'pineapple','apple','mango','orange'])\nx=index.value_counts()# return e serie  unique values of index in desc order\n# the nmber of occurences is the values off that serie\nprint(x)\nprint(type(x))\nindex=pd.Index([1,2,5,2,3,2,1,5,6,4])\nx=index.value_counts(normalize=True)\nprint(x)\nx=index.value_counts(sort=False)#respect the order, do not sort(True by default)",
         "detail": "1Series.value_couts",
+        "documentation": {}
+    },
+    {
+        "label": "info",
+        "kind": 5,
+        "importPath": "2DataFramre.apply",
+        "description": "2DataFramre.apply",
+        "peekOfCode": "info = pd.DataFrame([[4, 9,2,25]] * 4, columns=['P', 'Q','R','S'])\nprint(info)\nsq=info.apply(np.sqrt)\nprint(sq)\nsm=info.apply(sum)\nprint(sm)\nprod=info.apply(np.product,axis=1)\nprint(prod)\nxx=info.apply(lambda x: [1, 2], axis='columns')\nprint(xx)",
+        "detail": "2DataFramre.apply",
+        "documentation": {}
+    },
+    {
+        "label": "info",
+        "kind": 5,
+        "importPath": "2DataFramre.data_frame",
+        "description": "2DataFramre.data_frame",
+        "peekOfCode": "info = {'one' : pd.Series([1, 2, 3, 4, 5], index=['a', 'b', 'c', 'd', 'e']),\n   'two' : pd.Series([1, 2, 3, 4, 5, 6], index=['a', 'b', 'c', 'd', 'e', 'f'])}\ndf=pd.DataFrame(info)\nprint(df)\nprint('******First column:',df['one'],sep='\\n')\ny=df['three']=pd.Series([20,40,60],index=['a','b','c'])\nprint (y)\nprint(type(y))\ndf['four:sum(one,two,three)']=df['one']+df['two']+df['three']\nprint(df)",
+        "detail": "2DataFramre.data_frame",
         "documentation": {}
     }
 ]
