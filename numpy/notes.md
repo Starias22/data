@@ -1,8 +1,30 @@
 # numpy
 
 ## Get starting
+
 ## nd arrays
+
+### Definition and creation
+### Particulars
+### Properties
+### dtype
+
 ## Array creation
+
+### arange
+### Particular arrays
+### reshape-resize
+
+#### reshape
+#### resize
+
+### flatten
+### linspace
+### ndarray
+### fromiter
+### asarray
+### clip
+
 ## Bool arrays
 ## Operations
 ## Indexing and slicing

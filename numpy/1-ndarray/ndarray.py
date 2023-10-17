@@ -1,6 +1,5 @@
 import numpy as np
 
-
 """nd array is the most important object available in python
 It allows us to create and manipulate multidimentinal arrays"""
 
@@ -8,6 +7,8 @@ It allows us to create and manipulate multidimentinal arrays"""
 """To create an ndarray we can use the array method of numpy"""
 """It takes among others args, at least an object
 That object can be a sequence(list, tuple)"""
+
+## the order( Fortran C) default argument
 #an array
 arr=np.array([1,2,3,4])
 print("arr:",arr)

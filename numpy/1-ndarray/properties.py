@@ -1,9 +1,9 @@
 import numpy as np
 
-#length:the number of elemnets inside
+#length:the number of elements inside
 """
 When we want to create an ndarray we use the array method and specifiate
-spaciate 0 or  one sequence(list,tuple or array)
+0 or  one sequence(list,tuple or array)
 the number of elements(sequences or simple elements) in that sequence is it length
 an array"""
 arr=np.array([1,2,3,4])

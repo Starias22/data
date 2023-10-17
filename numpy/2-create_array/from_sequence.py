@@ -1,5 +1,6 @@
 import numpy as np
 #create ndarray from an existing sequence(list or tuple)
+#arr=np.asarray(lst,dtype=,order='C')
 lst=[5,6,-9,7]
 
 arr=np.asarray(lst)

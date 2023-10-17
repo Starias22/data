@@ -1,4 +1,5 @@
 import numpy as np
+# zeros, ones, full, empty
 shape=(3,2)
 zeros=np.zeros(shape)
 print("zeros:",zeros)

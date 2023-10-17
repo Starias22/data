@@ -20,8 +20,19 @@ rarr=np.reshape(arr,(2,3))
 print('rarr:',rarr)
 print(arr)
 
-rarr=arr.reshape((2,3),order='F')
+rarr=arr.reshape([2,3],order='F')
 print('rarr:',rarr)
 
+rarr=arr.reshape(6)
+print('rarr:',rarr)
+
+rarr=arr.reshape((6,))
+print('rarr:',rarr)
+
+"""rarr=arr.reshape((8,))
+print('rarr:',rarr)
+rarr=arr.reshape((5,))
+print('rarr:',rarr)
+"""
 
 

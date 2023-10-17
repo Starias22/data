@@ -1,4 +1,5 @@
 import numpy as np
+#np.linspace(start,stop,num=50,endpoint=True,retstep=False)
 #nd array of 50 items from 1 to 20 with 20 inside
 arr=np.linspace(start=1,stop=20)
 print(arr)
@@ -15,7 +16,7 @@ print(arr)
 arr=np.linspace(start=1,stop=20,num=5,endpoint=False, dtype=int)
 print(arr)
 
-#nd array of 80 items from 1 to 20 with 20 intside
+#nd array of 80 items from 1 to 20 with 20 inside
 arr=np.linspace(start=1,stop=20,num=80,endpoint=True)
 print(arr)
 print('arr.size:',arr.size)
