@@ -1,6 +1,7 @@
 import numpy as np
 #np.linspace(start,stop,num=50,endpoint=True,retstep=False)
 #nd array of 50 items from 1 to 20 with 20 inside
+## the step formula is (end-start)/(num-1)
 arr=np.linspace(start=1,stop=20)
 print(arr)
 
