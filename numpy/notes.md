@@ -1,5 +1,12 @@
 # numpy
 
+## Get starteg
+## nd arrays
+## array creation
+
+
+
+
 np.random src: <https://www.javatpoint.com/numpy-random> : np.random
 
 split array <https://www.w3schools.com/python/numpy/numpy_array_split.asp> split array
