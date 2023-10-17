@@ -2,7 +2,7 @@ import numpy as np
 arr=np.array([[1,2,3],[4,5,6]])
 print("arr:",arr)
 print('dtype:',arr.dtype)
-#int,float,bool,int32,int64,float32,float64,stretc
+#int,float,bool,int32,int64,float32,float64,str,etc
 arr=np.array([[4,-6,6],[5,5,9]],dtype='float64')
 print("arr:",arr)
 print('dtype:',arr.dtype)
