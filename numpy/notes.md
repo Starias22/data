@@ -1,8 +1,27 @@
 # numpy
 
-## Get starteg
+## Get starting
 ## nd arrays
-## array creation
+## Array creation
+## Bool arrays
+## Operations
+## Indexing and slicing
+## Copy and view
+## Arithmetical functions
+## Transform
+## Search and sort
+## strings
+## Math 
+## matlib
+## Linear algebra
+## Statistics
+## Bitwise operators
+## Random
+## Array saving
+## loadtxt
+## Set operators
+## Others
+ 
 
 
 
