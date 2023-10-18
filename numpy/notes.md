@@ -59,3 +59,4 @@ others on javatpoint:
 histogramm
 meshgrid
 pad
+np.add multiply divide subtract

@@ -1,5 +1,7 @@
 import numpy as np
-
+#np.concatenate((x,y),axis=0)
+# default value of axis is 0
+# axis can be 0, 1 or None
 x=np.array([[1,2,3],[3,4,-20]])
 y=np.array([[12,30,10]])
 print('x:',x)
