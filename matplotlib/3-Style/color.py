@@ -10,7 +10,6 @@ y=np.sin(x)
 
 
 plt.plot(x,y,label='f(x)=sin(x)',color='r')
-plt.legend(loc='best')#the default
 
 plt.show()
 

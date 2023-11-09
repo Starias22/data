@@ -20,6 +20,7 @@ plt.show()
 
 xcoords=[4,5.33,10,11,13]
 ycoords=[-2,5,3,6,-4.4]
+##plot 1
 plt.subplot(2,1,1)
 plt.title('Sublot1',loc='right')
 plt.plot(xcoords,ycoords)
